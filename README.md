@@ -8,4 +8,14 @@ Ripple effect is a situation in which, like ripples expand across the water when
 
 There is really nothing special to the ripple effect, in essence it is just an evaluation of the [sombrero function](http://adrianboeing.blogspot.com/2011/02/ripple-effect-in-webgl.html)  
 
-The WebGL version of Ripple effect can see [here](http://levietquang.com/demo/riple/)
+The WebGL version of Ripple effect can see [here](http://levietquang.com/demo/riple/)  
+
+## How to use this ?
+
+`-` Init Ripple Sprite :
+
+rippleSprite = pgeRippleSprite::create("your image");
+
+`-` Init Update function 
+
+rippleSprite->update(dt);
