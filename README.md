@@ -6,16 +6,26 @@ This library was created by **Lars Birkemose** on 02/12/11 and edited by **guang
 
 Ripple effect is a situation in which, like ripples expand across the water when an object is dropped into it, an effect from an initial state can be followed outwards incrementally.  
 
+<p align="center">
+<img src="Document/ripple.gif" width="60%" />
+</p>
+
 There is really nothing special to the ripple effect, in essence it is just an evaluation of the [sombrero function](http://adrianboeing.blogspot.com/2011/02/ripple-effect-in-webgl.html)  
 
-The WebGL version of Ripple effect can see [here](http://levietquang.com/demo/riple/)  
+The WebGL version of Ripple effect can see [here](https://mobilecodelab.com//showcase/riple)  
 
 ## How to use this ?
 
 `-` Init Ripple Sprite :
 
+```c++ 
 rippleSprite = pgeRippleSprite::create("your image");
+
+```
 
 `-` Init Update function 
 
+```c++ 
 rippleSprite->update(dt);
+
+```
