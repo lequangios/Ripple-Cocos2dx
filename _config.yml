@@ -2,7 +2,7 @@ title: Ripple Effect In Cocos2dx
 description: A ripple effect is a situation in which, like ripples expand across the water when an object is dropped into it, an effect from an initial state can be followed outwards incrementally.
 google_analytics: 
 show_downloads: true
-theme: jekyll-theme-midnight
+theme: jekyll-theme-cayman
 
 gems:
   - jekyll-mentions
