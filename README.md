@@ -1,6 +1,6 @@
 # Ripple-Cocos2dx
 
-This library was created by **Lars Birkemose** on 02/12/11 and edited by **guanghui** on 7/30/13. Now I have custom it for compatible for both cocos2dx version 2x and version 3x. It work well for iOS 8+ and Android 19+
+This library was created by **Lars Birkemose** on 02/12/11 and edited by **guanghui** on 7/30/13. Now I have custom it for compatible for both cocos2dx version 2x and version 3x. It work well for **iOS 8+** and **Android 19+**
 
 ## What is a Ripple effect ?  
 
@@ -14,24 +14,27 @@ There is really nothing special to the ripple effect, in essence it is just an e
 
 ### Sombrero function
 
-**A sombrero function** (sometimes called **besinc function** or **jinc function**) is the 2-dimensional polar coordinate analog of the sinc function, and is so-called because it is shaped like a sombrero hat. This function is frequently used in image processing. It can be defined through the **Bessel function** of the first kind where :
-<math >
-    <msubsup><mi>p</mi> <mi></mi> <mi>2</mi></msubsup>
-    <mo>=</mo>
-    <msubsup><mi>x</mi> <mi></mi> <mi>2</mi></msubsup>
-    <mo>+</mo>
-    <msubsup><mi>y</mi> <mi></mi> <mi>2</mi></msubsup>
-</math>
+**A sombrero function** (sometimes called **besinc function** or **jinc function**) is the 2-dimensional polar coordinate analog of the sinc function, and is so-called because it is shaped like a sombrero hat. This function is frequently used in image processing. It can be defined through the **Bessel function** of the first kind where : <img src="Document/eq1.gif"/>
 
-<math display="block">
-    <mi>somb(p)</mi>
-    <mo>=</mo>
-    <mfrac>
-    	<mrow><mn>2</mn><msubsup><mi>J</mi> <mi>1</mi> <mi></mi></msubsup><mn>(&Pi;p)</mn></mrow>
-    	<mrow><mn>&Pi;p</mn></mrow>
-    </mfrac>
-</math>
+<p align="center">
+<img src="Document/eq2.gif" />
+</p>
 
+<p align="center">
+<img src="Document/sombrero_function_3d.png" />
+</p>
+
+With **Riple Effect** just use 2D version of **sombrero function** and with 
+
+<p align="center">
+<img src="Document/eq3.gif" />
+</p>
+
+Then :
+
+<p align="center">
+<img src="Document/eq4.gif" />
+</p>
 
 
 The WebGL version of Ripple effect can see [here](https://mobilecodelab.com//showcase/riple)  
